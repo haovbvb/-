@@ -1,0 +1,28 @@
+<html>
+
+    <body style="margin:0px;">
+        
+        <img src="http://192.168.1.221/LikeImage/48/1545/6c772a75ed4a98ac8c66da8ea3a4e129/1/1345780736951_center.jpg?800X800" id=w style='width:2000;height:2000;position:absolute'>
+            
+            <script>
+                
+                with(w.style){
+                    
+                    sx=posWidth
+                    
+                    sy=posHeight
+                    
+                }
+                
+                d=document.body
+                
+                setInterval(function(){w.style.posTop=d.clientHeight/2-sy/2
+                            
+                            w.style.posLeft=d.clientWidth/2-sx/2},1)
+                
+                </script>
+            
+    </body>
+    
+</html>
+
